@@ -85,7 +85,9 @@ The sintactic elements of an output-instruction are the *write* keyword and a ar
 <br>
 
 ## General HPC languaje grammar
-
+![HPC grammar](https://github.com/H3cth0r/LexicalAnalizerHPC/blob/main/resources/grammar_img_01.pnghttp://url/to/img.png)
+<br>
+![HPC grammar](https://github.com/H3cth0r/LexicalAnalizerHPC/blob/main/resources/grammar_img_02.pnghttp://url/to/img.png)
 
 
 - **tk_program** = program
