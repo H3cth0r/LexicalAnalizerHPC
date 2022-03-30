@@ -12,6 +12,11 @@ sequence of tokens that then the parser will use for the sintactic analizer.
 The lexic-analizer will read a sequence of characters from the source code, until it 
 identifies a token, that it is then returned as an answer for the sintactic analizer.
 
+It is important to mention that on this case we'll be applying a manual implementation.
+
+For this project will be creating some c++ extensions for creating the lexical-analizer and python for creating the GUI using a crossplatform python library called tkinter.
+
+
 ## Collateral Methods
 - Delete comments.
 - Conserve the line numbers for then asociate them to an error in case it happens.
