@@ -72,5 +72,38 @@ The sintactic elements of an input-instruction are the *read* keyword and an ide
 
 The sintactic elements of an output-instruction are the *write* keyword and a arithmetic expression.
 
+## Token Names
+- **tk_val_float**
+- **tk_op_sum**
+- **tk_op_resta**
+- **tk_op_mul**
+- **tk_op_div**
+- **tk_op_asig**
+- **tk_coma**
+- **tk_dos_ptos**
+- **tk_pto_comma**
+<br>
 
+## General HPC languaje grammar
+
+
+
+- **tk_program** = program
+- **tk_type_int** = int
+- **tk_begin** = begin
+- **tk_read** = read
+- **tk_dos_ptos** = ":"
+- **tl_op_asig** = "="
+- **tk_id** = ( letra | "_" ) . ( letra | "_" | digit ) *
+- **tk_val_int** = digit . digit*
+- **letter** = A | B | ... | Z | a | b | ... | z
+- **digit** = 0 | 1 | ... | 9
+- **tk_val_float** = tk_val_int.tk_val_int
+- **tk_var** = var
+- **tk_type_float** = float
+- **tk_end** = end
+- **tk_write** = write
+- **tk_comma** = ","
+- **tk_pto_comma** = ";"
+- **tk_op_arit** = + | - | * | /
 </div>
