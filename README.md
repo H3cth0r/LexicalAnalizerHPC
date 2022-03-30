@@ -35,4 +35,42 @@ For each token it is necesary to almacenate on the "symbol-table" information li
 1. Identify the collection of tokens that compose the languaje. Comes united to the representation process of the languaje by a generative gramatics.
 2. Especify each token by an escheme to generate and recognize(usually a reglular expression).
 3. Especify a transition diagram of the lexic analizer.
+
+## HPC program general structure
+```
+program <program name>
+var
+    <variables declaration>
+begin
+    <instructions>
+end
+```
+
+- **variable declaration** 
+```
+<lista de variables> : <tipo de datos>;
+```
+The identifiers on the list are separated by a comma. The data allowed data types are *float* and *int*.
+- **instructions asignations**
+```
+identifier = <arithmetic_expression>
+```
+It only allows addition(+), substraction(-), product(*) and division(/), and other variable and constants, integer and real.
+- **input/output instructions**
+```
+read identifier;
+write <arithmetic expression>
+```
+
+<br>
+There are different *reserved words*, all of them with a different and important sintactic
+meaning. None of them can be used as an identifier of some variables. Each asignation is composed of an idenfier, an asignation operator, an arithmetic expression and ";".
+The arithmetic expression can be constituted by identifiers, integer constants and arithmetic operators(+, -, *, /).
+
+
+The sintactic elements of an input-instruction are the *read* keyword and an identifier.
+
+The sintactic elements of an output-instruction are the *write* keyword and a arithmetic expression.
+
+
 </div>
