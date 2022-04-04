@@ -1,0 +1,10 @@
+program ProgramaEjemplo
+var
+    perro, gato : int;
+begin
+    perro = 2 + 2;
+    read gato;
+    write 2.2 + 3;
+end
+
+program programaejemplo\nvar\n\tperro, gato : int;\nbegin\n\tperro = 2 + 2;\n\tread gato;\n\twrite 2.2 + 3;\nend
