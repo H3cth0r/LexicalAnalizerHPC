@@ -26,9 +26,7 @@ def print_list_of_tokesn():
     for i in list_of_tokens:
         print(i.get_kind())
 
-print("==================")
 print_list_of_tokesn()
-print("==================")
 
 
 
