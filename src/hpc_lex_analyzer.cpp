@@ -454,6 +454,8 @@ class Lexer{
                 consume();
             }
 
+            
+
             /*
             if decimal point ocurrence is true, then create float_val_token 
             */
@@ -466,6 +468,11 @@ class Lexer{
             } else{
                 token_kind = "tk_val_int";
             }
+
+            /*
+            In case the character is a letter, return an error token
+            */
+            if(isLetter(character)) token_kind = "tk_error";
 
             /*
             Add entry to symbol table.
