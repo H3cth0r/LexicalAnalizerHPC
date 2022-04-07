@@ -16,6 +16,10 @@ It is important to mention that on this case we'll be applying a manual implemen
 
 For this project will be creating some c++ extensions for creating the lexical-analizer and python for creating the GUI using a crossplatform python library called tkinter.
 
+
+## Build tutorial for Cmake and pybind11 project
+https://linuxtut.com/en/01d425c06f990e34870d/
+
 ## Video Running our Solution
 https://user-images.githubusercontent.com/43997408/161891896-9a63740d-712b-48b9-abfd-00c12483e938.mp4
 
