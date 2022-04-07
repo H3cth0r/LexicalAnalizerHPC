@@ -542,7 +542,9 @@ class Lexer{
                 if(isDigit(character))  return tokenValIntFloat();
                 else{
                     std::string token_kind = "tk_error";
-                    return Token(token_kind, std::string(1, character), line_count, calculate_in_line_index(1), keywords_tokens.at(token_kind), 1);
+                    Token token_id = Token(token_kind, std::string(1, character), line_count, calculate_in_line_index(0), keywords_tokens.at(token_kind), 1);
+                    consume();
+                    return token_id;
                 }
 
             }
