@@ -23,6 +23,10 @@ For this project will be creating some c++ extensions for creating the lexical-a
 
 ## Build Tutorial
 
+
+https://user-images.githubusercontent.com/43997408/162271768-5fd9df7e-51a0-4eb2-a0be-421a32b44f26.mp4
+
+
 ## Build tutorial for Cmake and pybind11 project
 https://linuxtut.com/en/01d425c06f990e34870d/
 
