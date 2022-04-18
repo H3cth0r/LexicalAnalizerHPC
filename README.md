@@ -33,6 +33,8 @@ https://linuxtut.com/en/01d425c06f990e34870d/
 ## Video Running our Solution
 https://user-images.githubusercontent.com/43997408/161891896-9a63740d-712b-48b9-abfd-00c12483e938.mp4
 
+## Solution Document
+If you would want to know more about our solution, please access the following [link](https://docs.google.com/document/d/1eHZ1_Sn-o0oPoRSZCUcQvl2j4jsT1BdwGNdYepmEdjA/edit?usp=sharing) <br> <br>
 
 
 ## Collateral Methods
