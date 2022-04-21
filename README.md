@@ -71,6 +71,20 @@ begin
 end
 ```
 
+## Example Code
+program programaEjemplo
+var
+    perro, gato:int;
+    a, b, c: float;
+begin
+    perro = 2 + 2;
+    read gato;
+    write 2.2 + perro;
+    read b;
+    write a * b;
+end
+    
+
 - **variable declaration** 
 ```
 <lista de variables> : <tipo de datos>;

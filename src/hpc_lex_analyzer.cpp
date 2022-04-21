@@ -49,7 +49,7 @@ std::unordered_map<std::string, std::string> keywords_tokens{
     {"tk_begin",          "blue"},  
     {"tk_read",           "cyan"},  
     {"tk_var",            "blue"},  
-    {"tk_type_float",     "gree"},  
+    {"tk_type_float",     "green"},  
     {"tk_end",            "blue"},  
     {"tk_write",          "cyan"},
     // single character tokens  
